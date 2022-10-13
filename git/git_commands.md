@@ -41,6 +41,31 @@ git restore -- <filename>
 git checkout -- <filname>
 ```
 
+To revert changes to last commit
+```sh
+git reset --hard
+```
+
+To revert to previous commit
+```sh
+git reset HEAD^
+```
+
+To remove untracked files
+```sh
+git clean -d
+```
+
+To download latest content from remote repository
+```sh
+git fetch
+```
+
+To move commits on top of master branch
+```sh
+git rebase master
+```
+
 To move file freom working directory to staging area
 ```sh
 git add
